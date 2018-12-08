@@ -1,0 +1,77 @@
+/*
+button{
+	 background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+    position: absolute;
+}*/
+
+body{
+	margin: none;
+	background: white;
+	max-width:100vw;
+	overflow-x:hidden;
+	max-height:100vw;
+	overflow-y:hidden;
+
+}
+/*make background clickable div*/
+.bg{
+	margin: none;
+	background: white;
+	height: 100vh;
+	width: 100vw;
+	z-index: -2;
+}
+
+/*click window*/
+.click{
+	font-family: garamond;
+	background: white;
+	display: table-cell; 
+	color: rgb(30,30,30);
+	vertical-align: middle;
+	position: absolute;
+	left:45vw;
+	top:45vh;
+	cursor: pointer;
+	font-size: 28px;
+	min-height: 50px;
+	min-width: 100px;
+	border-style: solid;
+	border-color: rgb(30,30,30);
+	padding:10px;
+
+
+
+
+/*	border: 2px solid black;
+	width: 150px;
+	height: 50px;
+	margin:5px;
+	text-align: center;*/
+}
+
+/*change colour of click window on hover*/
+.click:hover{
+	color:blue;
+
+	border-color: blue;
+
+}
+
+/*when click window is clicked, change size and colour*/
+.click:active{
+	background: blue;
+	color: white;
+	border-color: white;
+	font-size: 30px;
+}
+
+/*body:active{background: rgb(30,30,30);}
+*/
+

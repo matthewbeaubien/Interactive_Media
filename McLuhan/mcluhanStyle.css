@@ -1,0 +1,305 @@
+
+
+
+/*CSS ANIMATION KEYFRAMES (some unused)*/
+@keyframes fade-in{
+	0%   {background-color: white;}
+
+    100% {background-color: black;}
+
+}
+@keyframes rotate{
+	0%		{transform: rotate(0deg);}
+	100%	{transform: rotate(360deg);}
+}
+@keyframes oscillate2{
+	0%		{top: 10%;}
+	100%	{top: 70%;}
+}
+@keyframes flyby{
+	0%		{left: -50%;}
+	50%		{left: 30%;}
+	60%		{left: 40%;}
+	100%	{left: 110%;}
+}
+/*link colour*/
+a{
+	color: darkred;
+
+
+}
+ a:hover {
+  cursor:none;
+ }
+	body {
+	max-width:100vw;
+	overflow-x:hidden;
+
+	cursor: none;
+	margin: none;
+
+
+}
+
+.organization-title{
+
+	font-family: din-condensed, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	max-width: 100%;
+	color: white;
+	line-height: 95%;
+	margin: 2%;
+	text-decoration: underline;
+	background: black;
+    animation-name: fade-in;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    padding-bottom: 25px;
+}
+
+
+
+.organization-title-fixed{
+
+	font-family: din-condensed, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	position: fixed;
+	margin:2%;
+	top:5vh;
+
+	font-size: 4vw;
+	line-height: 95%;
+	text-decoration: underline;
+	background: black;
+	max-width: 19%;
+	padding-bottom: 10px;
+	z-index: -3;
+
+}
+
+
+.series-title{
+	width: 10vw;
+	position: relative;
+	top: 130px;
+	font-family: din-condensed, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 10vw;	
+	line-height: 80%;
+	animation-name: pass;
+}
+
+
+.write-up{
+	font-family: garamond;
+	position: relative;
+	top: 12rem;
+}
+
+@media (max-width: 500px){
+	.write-up{
+
+	}
+}
+
+.post-write-up{
+	position: relative;
+	font-family: din-condensed;
+	top:8rem;
+	width: 70%;
+
+	width: 2
+}
+
+.event1{
+	position: relative;
+	top: 10rem;
+	font-family: din-condensed, sans-serif;
+	font-weight: 400;
+	margin-bottom: 2rem;
+
+}
+.event2{
+	position: relative;
+	top: 10rem;
+	font-family: din-condensed, sans-serif;
+	font-weight: 400;
+	margin-bottom: 2rem;
+
+}
+.event3{
+	position: relative;
+	top: 10rem;
+	font-family: din-condensed, sans-serif;
+	font-weight: 400;
+	margin-bottom: 2rem;
+
+
+}
+.event4{
+	position: relative;
+	top: 10rem;
+	font-family: din-condensed, sans-serif;
+	font-weight: 400;
+	margin-bottom: 2rem;
+
+
+
+}
+.event5{
+	position: relative;
+	top: 10rem;
+	font-family: din-condensed, sans-serif;
+	font-weight: 400;
+	margin-bottom: 2rem;
+}
+
+
+.event6{
+	position: relative;
+	top: 10rem;
+	font-family: din-condensed, sans-serif;
+	font-weight: 400;
+	margin-bottom: 2rem;
+}
+
+
+.date{
+	font-family: din-condensed, sans-serif;
+	font-weight: 400;
+	color: white;
+	max-width:250px;
+	background: black;
+	letter-spacing: -1pt;
+
+	margin-bottom: 10px;
+
+}
+
+
+.event-title{
+	font-family: din-condensed, sans-serif;
+	font-weight: 400;
+	text-decoration: underline;
+	letter-spacing: -.5pt;
+	margin-bottom: 10px;
+}
+
+
+.name{
+	font-family: garamond;
+	font-size: 1.5rem;
+	width: 380px;
+}
+
+/*
+.bar{
+	background: lightblue;
+	position: fixed;
+	left: 50%; 
+	top: 50%;
+	width:1000px;
+	height:100px;
+	animation-name: rotate;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease;
+	z-index: -2;
+}*/
+
+.cursor2{
+	background: darkred;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	position: absolute;
+	z-index: -2;
+}
+.cursor3{
+	background: darkred;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	z-index: -2;
+}
+
+/*under title/headline*/
+/*.mask{
+	background:white;
+	width: 100vw;
+	height: 110vh;
+	position:absolute;
+	margin:0;
+	z-index: -1;
+}*/
+
+
+@media (max-width: 1000px) {
+	.organization-title{
+		font-size: 5rem;
+		letter-spacing: -5pt;
+	}
+	.date{
+		font-size: 2rem;
+	}
+	.write-up{
+		width: 70vw;
+		font-size: 14pt;
+	}
+	.post-write-up{
+		font-size: 2rem;
+	}
+	.event-title{
+		font-size: 1.5rem;
+		width: 60vw;
+	}
+	.name{
+		width: 60vw;
+	}
+
+
+}
+
+@media (min-width: 1001px){
+	.organization-title{
+		font-size: 18rem;
+		letter-spacing: -18pt;
+	}
+	.date{
+		font-size: 3rem;
+	}
+	.write-up{
+		width: 45vw;
+		font-size: 24pt;
+
+	}
+	.post-write-up{
+		font-size: 3rem;
+	}
+	.event-title{
+		font-size: 2rem;
+		width: 400px;
+	}
+	.name{
+		width:400px;
+	}
+
+}
+/*
+.scroll-animation{
+	background: black;
+	position: fixed;
+	width: 50px;
+	height: 5px;
+	top: 95%;
+	left: 2%;
+}*/
+
+
+
+

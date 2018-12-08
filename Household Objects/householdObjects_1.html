@@ -1,0 +1,290 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Household Objects 1</title>
+
+	<style>
+		.lamphead{
+			width: 400px;
+			height: 200px;
+			background: black;
+			border-radius: 200px / 100px;
+			position: absolute;
+			top: 100px;
+		}
+		.lampInside{
+			background: white;
+			width: 30px;
+			height: 200px;
+			border-radius: 15px / 100px;
+			position: absolute;
+			left: 194px;
+			top: 100px;
+		}
+		.lampInside2{
+			background: black;
+			width: 35px;
+			height: 180px;
+			border-radius: 17px / 90px;
+			position: absolute;
+			left: 190px;
+			top: 102px;
+		}
+		.cover{
+			width:200px;
+			height: 201px;
+			background: white;
+			position: absolute;
+			top: 100px;
+		}
+			.cover2{
+			width:600px;
+			height: 200px;
+			background: white;
+			position: absolute;
+		
+			left: 400px;
+		}
+		.lampBack{
+			background: black;
+			width: 200px;
+			height: 100px;
+			border-radius: 100px;
+			position: absolute;
+			top: 150px;
+			left: 280px;
+		}
+		.knob{
+			background: black;
+			width: 50px;
+			height: 50px;
+			border-radius: 25px;
+			position: absolute;
+			left:450px;
+			top:175px;
+		}
+		.neck1{
+			background: black;
+			width: 500px;
+			height: 500px;
+			border-radius: 250px;
+			position: absolute;
+			left: 400px;
+			border-width: 3px;
+			border-style: dashed;
+			border-color: white;
+		}
+			.neck2{
+			background: white;
+			width: 440px;
+			height: 440px;
+			border-radius: 220px;
+			position: absolute;
+			left: 430px;
+			top: 35px;
+			border-width: 3px;
+			border-style: dashed;
+			border-color: black;
+		}.neckLight1{
+			background: black;
+			width: 500px;
+			height: 500px;
+			border-radius: 250px;
+			position: absolute;
+			left: 412px;
+	
+		}
+			.neckLight2{
+			background: black;
+			width: 440px;
+			height: 440px;
+			border-radius: 220px;
+			position: absolute;
+			left: 408px;
+			top: 33px;
+			border-width: 5px;
+			border-style: dashed;
+			border-color: white;
+		}
+		.cover3{
+			background: white;
+			height: 600px;
+			width: 300px;
+			position: absolute;
+			left: 650px;
+		}
+
+		.clip1{
+			background: black;
+			height:100px;
+			width:10px;
+			position: absolute;
+			left: 650px;
+			top:450px;
+		}
+		.clip2{
+			background: black;
+			height:75px;
+			width:15px;
+			border-radius: 4px / 20px;
+			position: absolute;
+			left: 648px;
+			top:400px;
+		}
+		.clip3{
+			background: black;
+			height:100px;
+			width:10px;
+			position: absolute;
+			left: 695px;
+			top:445px;
+			transform: rotate(-20deg);
+		}
+		.clip4{
+			background: black;
+			height:75px;
+			width:15px;
+			border-radius: 4px / 20px;
+			position: absolute;
+			left: 670px;
+			top:395px;
+			transform: rotate(-20deg);
+		}
+		.clip5{
+			background: black;
+			height:10px;
+			width: 50px;
+			position: absolute;
+			transform: rotate(-10deg);
+			left: 650px;
+			top: 485px;
+
+		}
+		.hole1{
+			width: 50px;
+			height: 3px;
+			border-radius: 5px;
+			background: white;
+			position: absolute;
+			left:390px;
+			top:154px;
+		}
+		.hole2{
+			width: 50px;
+			height: 6px;
+			border-radius: 5px;
+			background: white;
+			position: absolute;
+			left:394px;
+			top:166px;
+		}	
+		.hole3{
+			width: 50px;
+			height: 8px;
+			border-radius: 5px;
+			background: white;
+			position: absolute;
+			left:396px;
+			top:184px;
+		}
+		.hole4{
+			width: 50px;
+			height: 9px;
+			border-radius: 5px;
+			background: white;
+			position: absolute;
+			left:396px;
+			top:205px;
+		}
+
+		.hole5{
+			width: 50px;
+			height: 5px;
+			border-radius: 5px;
+			background: white;
+			position: absolute;
+			left:394px;
+			top:225px;
+		}
+		.hole6{
+			width: 50px;
+			height: 4px;
+			border-radius: 5px;
+			background: white;
+			position: absolute;
+			left:390px;
+			top:240px;
+		}
+
+		.highlight1{
+			background: white;
+			width:100px;
+			height:14px;
+			position: absolute;
+			border-radius: 50px/7px;
+			top: 270px;
+			left: 220px;
+			transform: rotate(-13deg);
+		}
+		.highlight2{
+			background: black;
+			width:100px;
+			height:14px;
+			position: absolute;
+			border-radius: 50px/7px;
+			top: 265px;
+			left: 225px;
+			transform: rotate(-13deg);
+		}
+		
+
+
+	</style>
+
+</head>
+
+<body>
+
+		<!-- neck of lamp -->
+		<div class="neck1"> </div>
+		<div class="neckLight2"> </div>
+		<div class="neckLight1"> </div>
+		<div class="neck2"> </div>
+		<!-- mask for neck -->
+		<div class="cover2"> </div>
+		<div class="cover3"> </div>
+		<!-- head of lamp -->
+		<div class="lamphead"> </div>
+		<!-- mask for head -->
+		<div class="cover"> </div>
+		<!-- interior of lamp -->
+		<div class="lampInside2"> </div>
+		<div class="lampInside"> </div>
+		<!-- back potion of lamp head -->
+		<div class="lampBack"></div>
+		<!-- knob switch on back of lamp -->
+		<div class="knob"> </div>
+		<!-- clip at bottom of the neck -->
+		<div class="clip1"></div>
+		<div class="clip2"></div>
+		<div class="clip3"></div>
+		<div class="clip4"></div>
+		<div class="clip5"></div>
+		<!-- holes in back of lamp head -->
+		<div class="hole1"> </div>
+		<div class="hole2"> </div>
+		<div class="hole3"> </div>
+		<div class="hole4"> </div>
+		<div class="hole5"> </div>
+		<div class="hole6"> </div>
+		<!-- highlight on bottom of lamp heads -->
+		<div class="highlight1"> </div>
+		<div class="highlight2"> </div>
+
+
+	
+	
+
+</body>
+
+</html>

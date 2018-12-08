@@ -1,0 +1,446 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>Household Objects 2</title>
+	<style>
+		
+		.lampshade{
+			background: black;
+			width: 300px;
+			height: 200px;
+			position: absolute;
+			left: 100px;
+			top: 50px;
+		}
+		.lampshadeTop{
+			background: black;
+			width: 140px;
+			height: 50px;
+			border-radius: 70px / 25px;
+			position: absolute;
+			left: 180px;
+			top: 30px;
+
+
+		}
+		.lampshadeCounterform{
+			background: white;
+			width:120px;
+			height: 350px;
+			border-radius: 60px / 170px;
+			position: absolute;
+			transform: rotate(30deg);
+			left: 20px;
+			top: -15px;
+		}
+		.lampshadeCounterform2{
+			background: white;
+			width:120px;
+			height: 350px;
+			border-radius: 60px / 170px;
+			position: absolute;
+			transform: rotate(-30deg);
+			left: 360px;
+			top: -15px;
+		}
+		.lampshadeInner{
+			background: white;
+			width: 300px;
+			height: 50px;
+			border-radius: 150px / 25px;
+			position: absolute;
+			left: 100px;
+			top: 225px;
+		}
+		.lampshadeInner2{
+			background: black;
+			width: 280px;
+			height: 50px;
+			border-radius: 140px / 25px;
+			position: absolute;
+			left: 110px;
+			top: 228px;
+		}
+		.socket{
+			background: black;
+			width: 30px;
+			height: 50px;
+			border-radius: 15px;
+			position: absolute;
+			left: 235px;
+			top: 190px;
+		}
+		.socket2{
+			background: black;
+			width: 10px;
+			height: 30px;
+			position: absolute;
+			left: 245px;
+			top: 230px;
+		}
+		.socket3{
+			background: black;
+			width: 5px;
+			height: 20px;
+			position: absolute;
+			left: 228px;
+			top: 220px;
+		}
+		.socket4{
+			background: black;
+			width: 7px;
+			height: 20px;
+			position: absolute;
+			left: 269px;
+			top: 220px;
+		}
+		.socket5{
+			background: black;
+			width: 7px;
+			height: 20px;
+			position: absolute;
+			transform: rotate(45deg);
+			left: 262px;
+			top: 235px;
+		}
+		.socket6{
+			background: black;
+			width: 5px;
+			height: 20px;
+			position: absolute;
+			transform: rotate(-45deg);
+			left: 234px;
+			top: 235px;
+		}
+		.head{
+			background: black;
+			width: 30px;
+			height: 40px;
+			border-radius: 50px/10px;
+			position: absolute;
+			left: 235px;
+			top: 245px;
+		}
+		.head2{
+			background: black;
+			width: 70px;
+			height: 40px;
+			border-radius: 30px/20px;
+			position: absolute;
+			left: 215px;
+			top: 260px;
+		}
+		.head2Highlight{
+			background: white;
+			width: 60px;
+			height: 40px;
+			border-radius: 30px/20px;
+			position: absolute;
+			left: 220px;
+			top: 260px;
+
+		}
+		.head2Highlight2{
+			background: black;
+			width: 60px;
+			height: 44px;
+			border-radius: 30px/20px;
+			position: absolute;
+			left: 222px;
+			top: 258px;
+		}	
+		.head3{
+			background: black;
+			width: 26px;
+			height: 40px;
+			border-radius: 15px/5px;
+			position: absolute;
+			left: 237px;
+			top: 296px;
+		}
+		.head3Highlights{
+			background: white;
+			width: 2px;
+			height: 33px;
+			border-radius: 15px/5px;
+			position: absolute;
+			left: 245px;
+			top: 296px;
+		}
+		.neck{
+			background: black;
+			width: 120px;
+			height: 12px;
+			position: absolute;
+			top: 320px;
+			left: 120px;
+			transform: rotate(-5deg);
+		}
+		.neckJoint{
+			background: black;
+			width: 15px;
+			height: 30px;
+			border-radius: 15px/5px;
+			position: absolute;
+			left: 110px;
+			top: 322px;
+		}
+		.neckJointHighlight{
+			background: white;
+			width: 1px;
+			height: 30px;
+			border-radius: 15px/5px;
+			position: absolute;
+			left: 112px;
+			top: 319px;
+		}
+		.neck2{
+			background: black;
+			width: 100px;
+			height: 12px;
+			position: absolute;
+			top: 343px;
+			left: 120px;
+			transform: rotate(6deg);
+		}
+		.body{
+			background: black;
+			width: 24px;
+			height: 40px;
+			border-radius: 15px/5px;
+			position: absolute;
+			left: 217px;
+			top: 340px;
+		}
+		.bodyHighlight2{
+			background: white;
+			width: 2px;
+			height: 40px;
+			border-radius: 15px/5px;
+			position: absolute;
+			left: 223px;
+			top: 340px;
+		}
+		.body2{
+			background: black;
+			width: 30px;
+			height: 700px;
+			border-radius: 15px/5px;
+			position: absolute;
+			left: 214px;
+			top: 360px;
+		}
+		.bodyHighlight{
+			background: white;
+			width: 3px;
+			height: 700px;
+			border-radius: 15px/5px;
+			position: absolute;
+			left: 220px;
+			top: 360;
+		}
+		.base{
+			background: black;
+			width: 200px;
+			height: 80px;
+			border-radius: 100px/40px;
+			position: absolute;
+			left: 130px;
+			top:1075px;
+		}
+		.base2{
+			background: black;
+			width: 120px;
+			height: 80px;
+			border-radius: 60px/40px;
+			position: absolute;
+			left: 170px;
+			top:1045px;
+		}
+		.baseHighlight{
+			background: white;
+			width: 50px;
+			height: 50px;
+			border-radius: 25px;
+			position: absolute;
+			left: 185px;
+			top:1055px;
+		}
+		.baseHighlightB{
+			background: black;
+			width: 70px;
+			height: 70px;
+			border-radius: 35px;
+			position: absolute;
+			left: 187px;
+			top:1053px;
+		}
+		.wrinkleA{
+			background: white;
+			width: 30px;
+			height: 190px;
+			border-radius: 15px/100px;
+			position: absolute;
+			transform: rotate(30deg);
+			left: 167px;
+			top: 40px;
+		}
+		.wrinkleA2{
+			background: black;
+			width: 30px;
+			height: 200px;
+			border-radius: 15px/100px;
+			position: absolute;
+			transform: rotate(30deg);
+			left: 163px;
+			top: 36px;
+
+		}
+		.wrinkleB{
+			background: white;
+			width: 30px;
+			height: 180px;
+			border-radius: 15px/100px;
+			position: absolute;
+			transform: rotate(33deg);
+			left: 197px;
+			top: 46px;
+		}
+		.wrinkleB2{
+			background: black;
+			width: 30px;
+			height: 190px;
+			border-radius: 15px/100px;
+			position: absolute;
+			transform: rotate(33deg);
+			left: 193px;
+			top: 43px;
+
+		}
+		.wrinkleC{
+			background: white;
+			width: 30px;
+			height: 160px;
+			border-radius: 15px/100px;
+			position: absolute;
+			transform: rotate(36deg);
+			left: 227px;
+			top: 55px;
+		}
+		.wrinkleC2{
+			background: black;
+			width: 30px;
+			height: 170px;
+			border-radius: 15px/100px;
+			position: absolute;
+			transform: rotate(36deg);
+			left: 223px;
+			top: 50px;
+
+		}
+
+		.wrinkleD{
+			background: white;
+			width: 30px;
+			height: 150px;
+			border-radius: 15px/100px;
+			position: absolute;
+			transform: rotate(39deg);
+			left: 247px;
+			top: 70px;
+		}
+		.wrinkleD2{
+			background: black;
+			width: 30px;
+			height: 160px;
+			border-radius: 15px/100px;
+			position: absolute;
+			transform: rotate(39deg);
+			left: 243px;
+			top: 66px;
+
+		}
+		.wrinkleE{
+			background: white;
+			width: 30px;
+			height: 120px;
+			border-radius: 15px/100px;
+			position: absolute;
+			transform: rotate(39deg);
+			left: 267px;
+			top: 94px;
+		}
+		.wrinkleE2{
+			background: black;
+			width: 30px;
+			height: 130px;
+			border-radius: 15px/100px;
+			position: absolute;
+			transform: rotate(39deg);
+			left: 263px;
+			top: 90px;
+		}
+		.baseHightlight2{
+			background: white;
+			width:4px;
+			height: 55px;
+			border-radius: 1px;
+			position: absolute;
+			transform: rotate(60deg);
+			left: 155px;
+			top:1085px;
+		}
+	</style>
+</head>
+<body>
+	<!-- lampshade -->
+	<div class="lampshade"> </div>
+	<div class="lampshadeTop"> </div>
+	<div class="lampshadeCounterform"> </div>
+	<div class="lampshadeCounterform2"> </div>
+	<div class="lampshadeInner2"> </div> 
+	<div class="lampshadeInner"> </div>
+	<!-- bulb socket components -->
+	<div class="socket"> </div> 
+	<div class="socket2"> </div>
+	<div class="socket3"> </div> 
+	<div class="socket4"> </div>
+	<div class="socket5"> </div> 
+	<div class="socket6"> </div>
+
+	<div class="head3"> </div>
+	<div class="head3Highlights"> </div>
+	<div class="head"> </div>
+	<div class="head2"> </div>
+	<div class="head2Highlight"> </div>
+	<div class="head2Highlight2"> </div>
+	<div class="base"></div>
+	<div class="base2"></div>
+	<div class="neck"> </div> 
+	<div class="neckJoint"> </div>
+	<div class="neckJointHighlight"> </div>
+	<div class="neck2"> </div> 
+	<div class="body"> </div>
+	<div class="bodyHighlight2"> </div>
+	<div class="body2"> </div>
+	<div class="bodyHighlight"> </div>
+	<!-- folds in fabric of lampshade -->
+	<div class="wrinkleE"> </div>
+	<div class="wrinkleE2"> </div>
+	<div class="wrinkleD"> </div>
+	<div class="wrinkleD2"> </div>
+	<div class="wrinkleC"> </div>
+	<div class="wrinkleC2"> </div>
+	<div class="wrinkleB"> </div>
+	<div class="wrinkleB2"> </div>
+	<div class="wrinkleA"> </div>
+	<div class="wrinkleA2"> </div>
+	<!-- highlights on base of lamp -->
+	<div class="baseHighlight"></div>
+	<div class="baseHighlightB"></div>
+	<div class="baseHightlight2"></div>
+	
+	
+
+</body>
+</html>
