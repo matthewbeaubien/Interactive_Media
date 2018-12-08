@@ -519,7 +519,7 @@ ul.a{
 
 #transitionalHoverII {
   height: 6vw;
-  width: 45 vw;
+  width: 45vw;
   position: fixed;
   background: lightgray;
   mix-blend-mode: lighten;
