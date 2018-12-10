@@ -53,6 +53,7 @@ a{
 
 }
 
+
 #subHead{
   position: absolute;
   top: 115vh;
@@ -60,7 +61,9 @@ a{
   padding-top: 1%;
   padding-bottom: 1%;
   border-top: solid;
+  border-top-width: 2px;
   border-bottom: solid;
+  border-bottom-width: 2px;
   font-family: cormorant-garamond, serif;
   font-weight: 600;
   font-style: normal;
@@ -280,7 +283,7 @@ ul.a{
 /*textboxes*/
 
 .box01{
-
+  background: white;
   position: absolute;
   margin-left: 5%;
   max-width: 600px;
@@ -290,7 +293,7 @@ ul.a{
 }
 
 .box02{
-
+  background: white;
   position: absolute;
   margin-left: 5%;
   max-width: 600px;
@@ -300,7 +303,7 @@ ul.a{
 }
 
 .box03{
-
+  background: white;
   position: absolute;
   margin-left: 5%;
   max-width: 600px;
@@ -310,7 +313,7 @@ ul.a{
 }
 
 .box04{
-
+  background: white;
   position: absolute;
   margin-left: 5%;
   max-width: 600px;
@@ -320,7 +323,7 @@ ul.a{
 }
 
 .box05{
-
+  background: white;
   position: absolute;
   margin-left: 5%;
   max-width: 600px;
@@ -330,7 +333,7 @@ ul.a{
 }
 
 .box06{
-
+  background: white;
   position: absolute;
   margin-left: 5%;
   max-width: 600px;
@@ -340,7 +343,7 @@ ul.a{
 }
 
 .box07{
-
+  background: white;
   position: absolute;
   margin-left: 5%;
   max-width: 600px;
@@ -350,7 +353,7 @@ ul.a{
 }
 
 .box08{
-
+  background: white;
   position: absolute;
   margin-left: 5%;
   max-width: 600px;
@@ -360,7 +363,7 @@ ul.a{
 }
 
 .box09{
-
+  background: white;
   position: absolute;
   margin-left: 5%;
   max-width: 600px;
@@ -370,7 +373,7 @@ ul.a{
 }
 
 .box10{
-
+  background: white;
   position: absolute;
   margin-left: 5%;
   max-width: 600px;
