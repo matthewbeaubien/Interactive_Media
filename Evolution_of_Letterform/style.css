@@ -53,6 +53,23 @@ a{
 
 }
 
+#subHead{
+  position: absolute;
+  top: 115vh;
+  left: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-top: solid;
+  border-bottom: solid;
+  font-family: cormorant-garamond, serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 30pt;
+  font-size: 24pt;
+  color: #3C3C3B;
+
+}
+
 
 #title{
   font-family: cormorant-garamond, serif;
