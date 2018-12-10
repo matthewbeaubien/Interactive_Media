@@ -1,18 +1,5 @@
 
 
-//FIXED HEADER
-// var prevScrollpos = window.pageYOffset;
-// window.onscroll = function() {
-//     var currentScrollPos = window.pageYOffset;
-
-//     if (prevScrollpos < currentScrollPos) {
-//         document.getElementById("fixedHeader").style.top = "-150px";
-//     } else {
-//         document.getElementById("fixedHeader").style.top = "0";
-//     }
-//     prevScrollpos = currentScrollPos;
-// }
-
 //  MENU
 //fade in after title
 $(window).scroll(function(){ 
