@@ -33,6 +33,22 @@ $("#section01").click(function() {
         scrollTop: $(".box01").offset().top},
         'slow');
 });
+$(window).scroll(function(e) {
+//Set up
+var y = $(document).scrollTop();
+var h = $(window).height(); 
+var targetOne = $('.box02');
+
+if(y + h <+ targetOne.position().top + targetOne.outerHeight()){
+
+    $('#section01').animate({
+        fontSize: "20pt"
+    }, 500);
+
+}// End if
+  });
+
+
 
 //attempting to make sections in menu scale up when in menu 
 // $(window).scroll(function(){
