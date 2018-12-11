@@ -296,24 +296,52 @@ ul.a{
 	padding-bottom: 2%;
 }
 
-.footerBox01{
+#footerBox01{
 	position: relative;
 	float: left;
 	width: 20%;
 	padding-right: 5%;
 
+}
+#footerBox02{
+	position: relative;
+	width: 20%;
+	padding-right: 5%;
+	float: left;
 
+}
+
+#footerBox03{
+	position: relative;
+	width: 20%;
+	padding-right: 5%;
+	float: left;
+
+}
 
 
 /*HOVER ELEMENTS*/
   /*OLD STYLE*/
 
-.hoverElement:hover{
+#hover01:hover{
   color: lightgray;
-  cursor: pointer;
 }
 
-
+#hover02:hover{
+  color: lightgray;
+}
+#hover03:hover{
+  color: lightgray;
+}
+#hover04:hover{
+  color:lightgray;
+}
+#hover05:hover{
+  color: lightgray;
+}
+#hover06:hover{
+  color: lightgray;
+}
 
 
 #oldHoverI {
@@ -430,6 +458,18 @@ ul.a{
   display: none;
 }
 
+#hover07:hover{
+  color: lightgray;}
+
+#hover08:hover{
+  color: lightgray;}
+
+#hover09:hover{
+  color: lightgray;}
+
+#hover10:hover{
+  color: lightgray;}
+
 /*MODERN*/
 
 #modernHoverI {
@@ -475,6 +515,15 @@ ul.a{
   z-index: 5;
   display: none;
 }
+
+#hover11:hover{
+  color: lightgray;}
+#hover12:hover{
+  color: lightgray;}
+#hover13:hover{
+  color: lightgray;}
+#hover14:hover{
+  color: lightgray;}
 
 
 /*SANS-SERIF*/
@@ -522,6 +571,15 @@ ul.a{
   display: none;
 }
 
+#hover15:hover{
+  color: lightgray;}
+#hover16:hover{
+  color: lightgray;}
+#hover17:hover{
+  color: lightgray;}
+#hover18:hover{
+  color: lightgray;}
+
 /*WEB TYPEFACES*/
 #webHoverI{
   position: fixed;
@@ -543,6 +601,11 @@ ul.a{
   border-bottom: 26vw solid lightgray;
   display: none;
   }
+
+#hover19:hover{
+  color: lightgray;}
+#hover20:hover{
+  color: lightgray;}
 
 
 

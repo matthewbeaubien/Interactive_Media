@@ -285,6 +285,7 @@ $("#hover20").hover(function() {
 
 
 //sticky.js
+
 "use strict";
 !function(e) {
     "function" == typeof define && define.amd ? define(e) : "undefined" != typeof module && module.exports ? module.exports = e() : window.enterView = e.call(this)
@@ -374,7 +375,8 @@ $("#hover20").hover(function() {
     return e
 });
 
-//control video on scroll adapted from https://codepen.io/ollieRogers/pen/lfeLc/
+//control video on scroll taken from https://codepen.io/ollieRogers/pen/lfeLc/
+
 enterView({
     selector: 'section',
     enter: function(el) {
