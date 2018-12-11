@@ -21,35 +21,75 @@ $("#section01").click(function() {
         'slow');
 });
 
-//attempt 2
+// MENU ANIMATION
+// DEFINE SECTION VARIABLES 
+var box01top = $(".box01").offset().top;
+var box02top = $(".box02").offset().top;
+var box03top = $(".box03").offset().top;
+var box04top = $(".box04").offset().top;
+var box05top = $(".box05").offset().top;
+var box06top = $(".box06").offset().top;
+var box07top = $(".box07").offset().top;
+var box08top = $(".box08").offset().top;
+var box09top = $(".box09").offset().top;
+var box10top = $(".box10").offset().top;
+var footerTop = $(".footer").offset().top;
+// SCROLL FUNCTION
+$(window).scroll(function(){
+    //CURRENT SCROLL POSITION
+    var scrollTop = $(this).scrollTop();
+    // console.log(box01top)
+    // console.log(scrollTop)
+    //IF THE SCROLL POSITION IS GREATER THAN THE SCROLL POSITION VALUE OF
+    //BOX01 BUT LESS THAN BOX02, REMOVE THE ACTIVE CLASS FROM ALL MENU ITEM
+    //ELEMENTS (IN ORDER TO CLEAR THE ACTIVE CLASS ON THE NEXT MENU ITEM) 
+    //AND THEN PLACE THE ACTIVE CLASS ON SECTION01. REPEAT THIS 
+    //FOR EACH BOX CORRESPONDING TO EACH MENU ITEM.
+    if ( (scrollTop > box01top) && (scrollTop < box02top) ) {
+        $(".menuItem").removeClass("active")
+        $("#section01").addClass("active")
+    }
+    if ((scrollTop > box02top) && (scrollTop < box03top)){
+        $(".menuItem").removeClass("active")
+        $("#section02").addClass("active")
+    }
+    if ((scrollTop > box03top) && (scrollTop < box04top)){
+        $(".menuItem").removeClass("active")
+        $("#section03").addClass("active")
+    }
+    if ((scrollTop > box04top) && (scrollTop < box05top)){
+        $(".menuItem").removeClass("active")
+        $("#section04").addClass("active")
+    }
+    if ((scrollTop > box05top) && (scrollTop < box06top)){
+        $(".menuItem").removeClass("active")
+        $("#section05").addClass("active")
+    }
+    if ((scrollTop > box06top) && (scrollTop < box07top)){
+        $(".menuItem").removeClass("active")
+        $("#section06").addClass("active")
+    }
+    if ((scrollTop > box07top) && (scrollTop < box08top)){
+        $(".menuItem").removeClass("active")
+        $("#section07").addClass("active")
+    }
+    if ((scrollTop > box08top) && (scrollTop < box09top)){
+        $(".menuItem").removeClass("active")
+        $("#section08").addClass("active")
+    }
+    if ((scrollTop > box09top) && (scrollTop < box10top)){
+        $(".menuItem").removeClass("active")
+        $("#section09").addClass("active")
+    }
+    if ((scrollTop > box10top) && (scrollTop < footerTop)){
+        $(".menuItem").removeClass("active")
+        $("#section09").addClass("active")
+    }
 
-// $(window).scroll(function(e) {
-// //Set up
-// var y = $(document).scrollTop();
-// var h = $(window).height(); 
-// var targetOne = $('.box02');
 
-// if(y + h <+ targetOne.position().top + targetOne.outerHeight()){
+});
 
-//     $('#section01').animate({
-//         fontSize: "20pt"
-//     }, 500);
-
-// }// End if
-//   });
-
-
-
-//attempting to make sections in menu scale up when in menu 
-// $(window).scroll(function(){
-//     if ($(this).scrollTop() > 1000,
-//         < 1200) {
-//         $('#section01').animate({
-//             fontSize: "30pt"
-//         })
-//     }
-// });
-
+//MENU CLICK TO SCROLL FUNCTIONS
 $("#section02").click(function() {
     $('html,body').animate({
         scrollTop: $(".box02").offset().top},
@@ -245,7 +285,6 @@ $("#hover20").hover(function() {
 
 
 //sticky.js
-
 "use strict";
 !function(e) {
     "function" == typeof define && define.amd ? define(e) : "undefined" != typeof module && module.exports ? module.exports = e() : window.enterView = e.call(this)
@@ -335,8 +374,7 @@ $("#hover20").hover(function() {
     return e
 });
 
-//control video on scroll taken from https://codepen.io/ollieRogers/pen/lfeLc/
-
+//control video on scroll adapted from https://codepen.io/ollieRogers/pen/lfeLc/
 enterView({
     selector: 'section',
     enter: function(el) {
