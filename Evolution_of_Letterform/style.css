@@ -296,28 +296,13 @@ ul.a{
 	padding-bottom: 2%;
 }
 
-#footerBox01{
+.footerBox01{
 	position: relative;
 	float: left;
 	width: 20%;
 	padding-right: 5%;
 
-}
-#footerBox02{
-	position: relative;
-	width: 20%;
-	padding-right: 5%;
-	float: left;
 
-}
-
-#footerBox03{
-	position: relative;
-	width: 20%;
-	padding-right: 5%;
-	float: left;
-
-}
 
 
 /*HOVER ELEMENTS*/
